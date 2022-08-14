@@ -1,5 +1,18 @@
 {
   "projects": {
-    "default": "angular-voxer"
-  }
-}
+    "default": "angular-firestarter-e24ff"
+  },
+  "targets": {
+    "angular-firestarter-e24ff": {
+      "hosting": {
+        "angular-firestarter-e24ff-clone-001": [
+          "clone-001"
+        ],
+        "angular-firestarter-e24ff": [
+          "master001"
+        ]
+      }
+    }
+  },
+  "etags": {}
+

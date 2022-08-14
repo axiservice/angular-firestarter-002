@@ -1,19 +1,13 @@
 {
   "hosting": {
-    "public": "dist/browser",
+    "site": "angular-firestarter-e24ff-clone-001",
+    "public": "dist\\browser",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [ 
-      {
-        "source": "**",
-        "run": {
-          "serviceId": "nest-angular-ssr",
-          "region": "us-central1" 
-        }
-      }
     ]
   }
+
+  
 }
